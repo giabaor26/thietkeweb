@@ -1,0 +1,489 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000000;
+    font-weight: 400px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    transition: all 0.3s;
+}
+
+.canhLe {
+    width: 100%;
+}
+.dieuHuong {
+    margin-top: 30px;
+    margin-left: 330px;
+    flex: 1;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    font-size: 14.5px;
+    font-weight: 600;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.link2 {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.link3 {
+    margin-left: -10px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.link4 {
+    margin-left: -10px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.link5 {
+    margin-left: -10px;
+    font-size: 14px;
+    line-height: 70px;
+    font-weight: 400;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.link6 {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.xuongDuoi {
+    margin-top: -10px;
+}
+p {
+    display: block;
+}
+span {
+    width: 129px;
+    height: 15px;
+}
+.classMau {
+    color: #5f5d5d;
+}
+.classMau {
+    color: #5f5d5d;
+    font-weight: 400;
+}
+.imgClass {
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    display: inline;
+    margin-right: 8px;
+}
+
+.imgClass2 {
+    width: 31.25px;
+    height: 25px;
+    margin-top: 15px;
+}
+.imgClass3 {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.imgClass4 {
+    margin-top: 10px;
+    width: 27px;
+    height: 27px;
+}
+.imgClass5 {
+    margin-left: 20px;
+    width: 260.84px;
+    height: 260.84px;
+    display: block;
+}
+.logo {
+    width: 190px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+#v2,
+#v3 {
+    display: block;
+    margin: 8px 75px;
+    padding: 10px;
+}
+
+.chuLogo {
+    color: #444444;
+    font-size: 8px;
+    display: block;
+    font-weight: 600;
+    position: absolute;
+    top: 33px;
+    left: 0px;
+    white-space: nowrap;
+    margin-left: 50px;
+}
+span {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.imgBack {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10px;
+}
+
+.box-link {
+    display: flex;
+    padding: 0px 20px;
+}
+.box-link2 {
+    display: flex;
+    padding: 20px 40px;
+}
+
+.box-link3 {
+    margin-left: 110px;
+    display: flex;
+}
+.box-link4 {
+    top: -10px;
+    margin-left: 50px;
+    display: flex;
+}
+.box-link5 {
+    margin-left: 80px;
+    display: flex;
+}
+.noiDung {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.backG1 {
+    text-align: center;
+    width: 239px;
+    height: 24px;
+    border: 1px;
+    border-radius: 8px;
+    background: #f0f0f0;
+    text-decoration: none;
+}
+.backG2 {
+    margin-left: 10px;
+    text-align: center;
+    width: 144px;
+    height: 24px;
+    border: 1px;
+    border-radius: 8px;
+    background: #f0f0f0;
+    text-decoration: none;
+}
+.mauDen {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.khoangCach {
+    margin-top: -15px;
+    margin-left: 450px;
+    align-items: center;
+}
+.imgSize {
+    width: 30px;
+    height: 30px;
+    top: -100px;
+}
+.tagH2 {
+    font-size: 30px;
+    font-weight: 500px;
+    text-align: center;
+    padding: 40px;
+}
+.button {
+    width: 337px;
+    height: 40.6px;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px 0 0 8px;
+    margin-left: 510px;
+    margin-top: -10px;
+}
+.button2 {
+    width: 50px;
+    height: 40.6px;
+    background: #d1d1d1;
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+    margin-top: -10px;
+    margin-left: -20px;
+    border-radius: 0 4px 4px 0;
+}
+.button3 {
+    width: 127px;
+    height: 35px;
+    background-color: #d1d1d1;
+    color: #fff;
+    border: 1px solid #d1d1d1;
+    margin-left: -10px;
+    text-align: center;
+}
+
+.tnd {
+    font-size: 1.6rem;
+    width: 98%;
+    border: none;
+    outline: none;
+}
+.muiTen {
+    margin-top: 10px;
+}
+.hangAo {
+    display: flex;
+}
+.colmd3 {
+    margin-left: 20px;
+}
+.container {
+    position: relative;
+    width: 260.84px;
+    height: 260.84px;
+}
+
+.image {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.container2 .button3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #d1d1d1;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container2 .button3:hover {
+    background-color: white;
+    color: black;
+}
+#v4 {
+    background: #f3f3f3;
+    padding: 35px 0;
+}
+#foot {
+    display: flex;
+}
+.spanClass {
+    font-size: 14px;
+    margin-left: 150px;
+}
+.mauDo {
+    color: red;
+}
+.lenCao2 {
+    float: left;
+    margin-top: 20px;
+}
+.danhsachDieuHuong {
+    margin-left: 150px;
+    display: flex;
+}
+
+.danhsachDieuHuong ul {
+    width: 30%;
+}
+
+.danhsachDieuHuong li {
+    font-size: 20px;
+    color: #000;
+    width: 200px;
+    height: 20px;
+    margin: 15px 0;
+}
+.spanClasz {
+    font-size: 1.4rem;
+    padding-top: 10px;
+}
+#foot {
+    flex-direction: column;
+}
+.imgClass6 {
+    width: 150px;
+    height: 57px;
+    padding-top: 10px;
+    display: inline;
+}
+.danhsachDieuHuong2 {
+    margin-top: -150px;
+    margin-left: 620px;
+    display: flex;
+}
+
+.danhsachDieuHuong2 ul {
+    width: 30%;
+}
+.danhsachDieuHuong2 a {
+    line-height: 28px;
+    display: block;
+}
+
+.danhsachDieuHuong2 li {
+    font-size: 20px;
+    color: #000;
+    width: 200px;
+    height: 20px;
+    margin: 15px 0;
+}
+.danhsachDieuHuong3 {
+    margin-top: -263px;
+    margin-left: 900px;
+    display: flex;
+}
+
+.danhsachDieuHuong3 ul {
+    width: 30%;
+}
+
+.danhsachDieuHuong3 li {
+    color: #000;
+    width: 200px;
+    height: 20px;
+    margin: 15px 0;
+    line-height: 28px;
+    display: block;
+}
+.imgClass7 {
+    width: 15px;
+    height: 15px;
+}
+.spanClasz2 {
+    font-size: 20px;
+    padding-top: 2px;
+}
+.danhsachDieuHuong4 {
+    margin-top: -205px;
+    margin-left: 1200px;
+    display: flex;
+}
+
+.danhsachDieuHuong4 ul {
+    width: 30%;
+}
+
+.danhsachDieuHuong4 li {
+    font-size: 20px;
+    color: #000;
+    width: 200px;
+    height: 20px;
+    margin: 15px 0;
+}
+.imgClass8 {
+    width: 300px;
+    height: 120px;
+}
+hr {
+    width: 100%;
+    size: 0.5px;
+    color: #d1d1d1;
+    margin-top: 90px;
+}
+.tagP {
+    font-size: 1.3rem;
+    line-height: 80px;
+    width: 1430px;
+    height: 21px;
+    margin-left: 100px;
+    text-align: center;
+}
+#v5 {
+    background: #f3f3f3;
+    padding: 10px 0;
+}
+.leftback {
+    margin-top: 10px;
+    margin-left: 410px;
+}
+.wordRight {
+    font-size: 16px;
+    width: 39px;
+    height: 17px;
+    margin-left: 90px;
+    padding-top: 40px;
+    display: flex;
+}
+.wordRight2 {
+    margin-top: 40px;
+}
+.leftback2 {
+    font-size: 12px;
+    margin-top: -100px;
+    margin-left: 510px;
+    padding: 20px;
+}
